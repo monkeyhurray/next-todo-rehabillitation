@@ -3,10 +3,9 @@ import { useDeleteMutation, usePatchMutation } from "../hooks/useMutation";
 
 import type { Todo } from "@/types";
 
-const patchMutation = usePatchMutation();
-const deleteMutation = useDeleteMutation();
-
 const DoneBar = ({ todos }: { todos: Todo[] }) => {
+  const patchMutation = usePatchMutation();
+  const deleteMutation = useDeleteMutation();
   const patchContents = (payload: Todo) => patchMutation.mutate(payload);
   const deleteContents = (id: string) => deleteMutation.mutate(id);
 

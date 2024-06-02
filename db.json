@@ -4,5 +4,18 @@
     "desctiption": "우리 모두 코드몽키가 아닌 개발자가 됩시다.",
     "image": "https://image.dongascience.com/Photo/2017/08/15023553014585.jpg"
   },
-  "todos": []
+  "todos": [
+    {
+      "id": "6dcf",
+      "title": "asd",
+      "contents": "asd",
+      "isDone": true
+    },
+    {
+      "id": "d1b0",
+      "title": "qwewqe",
+      "contents": "qwqeqqw",
+      "isDone": false
+    }
+  ]
 }
